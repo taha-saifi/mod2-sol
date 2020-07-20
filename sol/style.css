@@ -1,0 +1,75 @@
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+h2{
+    border: 1px solid black ;
+    margin-top: 0px ;
+    text-align: right;
+    width: 40%;
+    float: right;
+    background-color: burlywood;
+}
+/***************desktop view************/
+@media (min-width: 992px){
+
+    div{
+        width: 30%;
+        border: 1px solid black;
+        float: left;
+        margin: 10px;
+        background-color: blue;
+        clear: right;
+    }
+    div p{
+        clear: right;
+    }
+    
+
+}
+
+/******************tablette view**********/
+@media (max-width: 991px) and
+ (min-width: 768px){
+    div{
+        text-align: right;
+    }
+    h2{
+        text-align: right;
+    }
+    p{
+        text-align: left;
+    }
+    #p1,#p2{
+        float: left;
+        width: 47%;
+        border: 1px solid black;
+        margin: 10px;
+        background-color: chocolate;
+        clear: right;
+    }
+    #p3 {
+        clear: left;
+        margin: 10px;
+        float: left;
+        width: 100%;
+        border: 1px solid black;
+        clear: both;
+        background-color: chocolate;
+    }
+}
+/**************mobile view****************/
+@media (max-width: 767px){
+    
+    p{
+        background-color: brown;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+    h2{
+        text-align: right;
+    }
+}
+
